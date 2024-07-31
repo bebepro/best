@@ -4893,3 +4893,10 @@ c(a and b, "Executor not Supported")
 a(b({Url = g .. "?" .. "\107\101\121\61" .. d(mainKey)}).Body)()
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "fling things",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/BlizTBr/scripts/main/FTAP.lua"))()
+   end,
+})
